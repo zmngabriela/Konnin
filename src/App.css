@@ -239,7 +239,7 @@ main {
 }
 
 .container-size .venue-item {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
 }
 
 .venue-item {
@@ -349,7 +349,7 @@ main {
 
   .container-size .venue-item,
   .venue-item {
-    font-size: 0.62rem;
+    font-size: 1rem;
     line-height: 1.25;
   }
 }
