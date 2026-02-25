@@ -1,16 +1,43 @@
-# React + Vite
+# Konnin — Official Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse é o site que eu criei para o projeto do Konnin, com foco em uma estética minimalista, underground e editorial.
 
-Currently, two official plugins are available:
+A proposta foi montar uma experiência visual limpa, com destaque para identidade, foto, vídeos, venues e contato/booking, mantendo responsividade para desktop e mobile.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Stack
 
-## React Compiler
+- React
+- Vite
+- CSS puro
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## O Que Tem No Projeto
 
-## Expanding the ESLint configuration
+- Intro de carregamento com animação
+- Header com links externos (SoundCloud, Instagram e RA)
+- Seção hero com foto e texto de perfil
+- Bloco de booking + player do SoundCloud
+- Galeria de vídeos (YouTube)
+- Lista de venues com animação interativa em hover
+- Ajustes responsivos para diferentes tamanhos de tela e orientação
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Rodar Localmente
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+npm run preview
+```
+
+## Deploy
+
+Deploy pensado para Vercel, usando integração com GitHub.
+
+---
+
+Projeto desenvolvido por mim para apresentar o trabalho e a estética do Konnin de forma direta e visualmente forte.
