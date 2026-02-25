@@ -64,6 +64,10 @@
 }
 
 @media (max-width: 960px) {
+  .media {
+    margin-top: 0;
+  }
+
   .intro-title {
     top: 48px;
     font-size: 3.5rem;
@@ -221,7 +225,7 @@ main {
 }
 
 .venues {
-  min-height: 80vh;
+  min-height: 60vh;
   height: auto;
   display: flex;
   align-items: flex-start;
@@ -278,6 +282,7 @@ main {
 
 .media {
   padding: 0;
+  margin-top: 120px;
 }
 
 .media-image {
@@ -285,6 +290,30 @@ main {
   aspect-ratio: 16 / 9;
   object-fit: cover;
   display: block;
+}
+
+@media (min-width: 961px) {
+  .venues .gallery {
+    width: 32vw;
+    max-width: 520px;
+    min-width: 320px;
+  }
+
+  .venues .gallery-grid {
+    gap: 16px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .venues .gallery {
+    width: 24vw;
+    max-width: 420px;
+    min-width: 280px;
+  }
+
+  .venues .gallery-grid {
+    gap: 12px;
+  }
 }
 
 @media (max-width: 1128px) {
@@ -407,6 +436,8 @@ main {
   .venues .gallery-grid,
   .venues .container-size {
     width: 100%;
+    max-width: none;
+    min-width: 0;
   }
 }
 
