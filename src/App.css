@@ -221,10 +221,12 @@ main {
 }
 
 .venues {
-  height: 80vh;
+  min-height: 80vh;
+  height: auto;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
+  gap: 48px;
   padding: 40px 6vw 16px 12vw;
 }
 
@@ -389,11 +391,16 @@ main {
   }
 
   .venues {
-    height: 135vh;
+    min-height: 135vh;
+    height: auto;
     padding-inline: 3vw;
     flex-direction: column;
     margin-top: 20px;
-    gap: 0;
+    gap: 20px;
+  }
+
+  .venues > div:last-child {
+    margin-top: 10px;
   }
 
   .venues .gallery,
@@ -429,7 +436,8 @@ main {
   }
 
   .venues {
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
   }
 }
 
