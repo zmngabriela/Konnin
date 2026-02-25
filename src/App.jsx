@@ -164,9 +164,9 @@ function App() {
           })}
         </h1>
         <nav className="nav">
-          <a href="https://soundcloud.com/guilhermekonnin" >SoundCloud</a>
-          <a href="https://www.instagram.com/konnin.dj/">Instagram</a>
-          <a href="https://pt.ra.co/dj/konnin">RA</a>
+          <a href="https://soundcloud.com/guilhermekonnin" target="_blank" rel="noreferrer noopener">SoundCloud</a>
+          <a href="https://www.instagram.com/konnin.dj/" target="_blank" rel="noreferrer noopener">Instagram</a>
+          <a href="https://pt.ra.co/dj/konnin" target="_blank" rel="noreferrer noopener">RA</a>
         </nav>
       </header>
 
