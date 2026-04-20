@@ -1,39 +1,33 @@
-# Konnin — Official Website
+# Konnin Website
 
-Site do artistan DJ Konnin, com foco em uma estética minimalista e editorial.
+Official website created for the artist and DJ Konnin, with a minimal and editorial visual direction focused on identity, media, and contact.
 
-A proposta foi montar uma experiência visual simples, com destaque para identidade, foto, vídeos, clubs e contato, mantendo responsividade para desktop e mobile.
+## Overview
 
-## Stack
+The project was designed to create a strong visual presence while keeping the experience clean, responsive, and easy to navigate. The site brings together profile information, embedded media, external links, and booking details in a way that feels direct and visually consistent.
+
+## Tech Stack
 
 - React
 - Vite
-- CSS puro
+- CSS
 
-## O Que Tem No Projeto
+## Features
 
-- Intro de carregamento com animação
-- Header com links externos (SoundCloud, Instagram e RA)
-- Seção hero com foto e texto de perfil
-- Bloco de booking + player do SoundCloud
-- Galeria de vídeos (YouTube)
-- Lista de clubs com animação interativa em hover
-- Ajustes responsivos para diferentes tamanhos de tela e orientação
+- Intro loading animation
+- Hero section with artist profile
+- External links to platforms and social media
+- Embedded SoundCloud player
+- Video gallery
+- Booking/contact section
+- Responsive layout for different screen sizes
 
-## Rodar Localmente
+## Purpose
+
+This project was built to support an artist’s online presence through a visually focused website with simple navigation and strong media integration.
+
+## Run Locally
 
 ```bash
 npm install
 npm run dev
-```
-
-## Build
-
-```bash
-npm run build
-npm run preview
-```
-
-## Deploy
-
-Deploy pensado para Vercel, usando integração com GitHub.
